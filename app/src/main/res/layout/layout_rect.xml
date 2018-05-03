@@ -9,14 +9,16 @@
     <TextView
         style="@style/title_tip_style"
         android:layout_marginTop="0dp"
-        android:text="矩形（边框+填充）："/>
+        android:text="矩形（边框+填充）："
+        android:visibility="gone"/>
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="40dp"
         android:background="@drawable/rect_solid_border"
         android:gravity="center"
-        android:text="矩形实线边框-内部无填充"/>
+        android:text="矩形实线边框-内部无填充"
+        android:textColor="@color/colorText"/>
 
     <TextView
         android:id="@+id/textView"
@@ -25,7 +27,8 @@
         android:layout_marginTop="10dp"
         android:background="@drawable/rect_dashed_border"
         android:gravity="center"
-        android:text="矩形虚线边框-内部无填充"/>
+        android:text="矩形虚线边框-内部无填充"
+        android:textColor="@color/colorText"/>
 
     <TextView
         android:layout_width="match_parent"
@@ -33,7 +36,8 @@
         android:layout_marginTop="10dp"
         android:background="@drawable/rect_solid_border_and_fill"
         android:gravity="center"
-        android:text="矩形实线边框-内部填充"/>
+        android:text="矩形实线边框-内部填充"
+        android:textColor="@color/colorText"/>
 
     <TextView
         android:layout_width="match_parent"
@@ -41,22 +45,7 @@
         android:layout_marginTop="10dp"
         android:background="@drawable/rect_dashed_border_and_fill"
         android:gravity="center"
-        android:text="矩形虚线边框-内部填充"/>
-
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="40dp"
-        android:layout_marginTop="10dp"
-        android:background="@drawable/layer_top_bg"
-        android:gravity="center"
-        android:text="左上-右上 圆角"/>
-
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="40dp"
-        android:layout_marginTop="10dp"
-        android:background="@drawable/layer_bottom_bg"
-        android:gravity="center"
-        android:text="左下-右下 圆角"/>
+        android:text="矩形虚线边框-内部填充"
+        android:textColor="@color/colorText"/>
 
 </LinearLayout>

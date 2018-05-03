@@ -9,14 +9,16 @@
     <TextView
         style="@style/title_tip_style"
         android:layout_marginTop="0dp"
-        android:text="圆角矩形："/>
+        android:text="圆角矩形："
+        android:visibility="gone"/>
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="40dp"
         android:background="@drawable/rect_rounded_border"
         android:gravity="center"
-        android:text="圆角矩形-只有边框"/>
+        android:text="圆角矩形-只有边框"
+        android:textColor="@color/colorText"/>
 
     <TextView
         android:layout_width="match_parent"
@@ -24,7 +26,8 @@
         android:layout_marginTop="10dp"
         android:background="@drawable/rect_rounded_fill"
         android:gravity="center"
-        android:text="圆角矩形-只有内部填充"/>
+        android:text="圆角矩形-只有内部填充"
+        android:textColor="@color/colorText"/>
 
     <TextView
         android:layout_width="match_parent"
@@ -32,7 +35,8 @@
         android:layout_marginTop="10dp"
         android:background="@drawable/rect_rounded_border_and_fill"
         android:gravity="center"
-        android:text="圆角矩形-有边框有填充"/>
+        android:text="圆角矩形-有边框有填充"
+        android:textColor="@color/colorText"/>
 
     <TextView
         android:layout_width="match_parent"
@@ -40,7 +44,8 @@
         android:layout_marginTop="10dp"
         android:background="@drawable/rect_rounded_left_arc"
         android:gravity="center"
-        android:text="圆角矩形-左边圆角为一个半圆弧"/>
+        android:text="圆角矩形-左边圆角为一个半圆弧"
+        android:textColor="@color/colorText"/>
 
     <TextView
         android:layout_width="match_parent"
@@ -48,7 +53,8 @@
         android:layout_marginTop="10dp"
         android:background="@drawable/rect_rounded_left_right_arc"
         android:gravity="center"
-        android:text="圆角矩形-左右两边都是半圆弧"/>
+        android:text="圆角矩形-左右两边都是半圆弧"
+        android:textColor="@color/colorText"/>
 
     <TextView
         android:layout_width="match_parent"
@@ -56,7 +62,8 @@
         android:layout_marginTop="10dp"
         android:background="@drawable/rect_rounded_left_right_arc_border"
         android:gravity="center"
-        android:text="圆角矩形-左右两边都是半圆弧-带边框"/>
+        android:text="圆角矩形-左右两边都是半圆弧-带边框"
+        android:textColor="@color/colorText"/>
 
     <LinearLayout
         android:layout_width="wrap_content"
@@ -76,7 +83,8 @@
             android:layout_height="40dp"
             android:layout_marginLeft="5dp"
             android:gravity="center"
-            android:text="圆角矩形-圆" />
+            android:text="圆角矩形-圆"
+            android:textColor="@color/colorText"/>
 
         <TextView
             android:layout_width="20dp"
@@ -90,7 +98,8 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="5dp"
             android:gravity="center"
-            android:text="圆角矩形-上下两边半圆弧" />
+            android:text="圆角矩形-上下两边半圆弧"
+            android:textColor="@color/colorText"/>
     </LinearLayout>
 
 </LinearLayout>

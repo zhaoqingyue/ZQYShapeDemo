@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="#ECECEC"
+              android:orientation="vertical"
+              android:padding="15dp">
+
+    <TextView
+        style="@style/title_tip_style"
+        android:layout_marginTop="0dp"
+        android:text="layer-list多图层叠加："
+        android:visibility="gone"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/layer_top0"
+        android:gravity="center"
+        android:text="灰色边框 无下边框 顶部圆角 白色背景"
+        android:textColor="@color/colorText"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/layer_top1"
+        android:gravity="center"
+        android:text="灰色边框 有下边框 顶部圆角 白色背景"
+        android:textColor="@color/colorText"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/layer_top2"
+        android:gravity="center"
+        android:text="灰色边框 无下边框 顶部圆角 白色背景"
+        android:textColor="@color/colorText"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/layer_mid0"
+        android:gravity="center"
+        android:text="灰色边框 无上边框 不带圆角 白色背景"
+        android:textColor="@color/colorText"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/layer_mid1"
+        android:gravity="center"
+        android:text="灰色边框 不带圆角 白色背景"
+        android:textColor="@color/colorText"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/layer_mid2"
+        android:gravity="center"
+        android:text="灰色边框 无下边框 不带圆角 白色背景"
+        android:textColor="@color/colorText"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/layer_bottom0"
+        android:gravity="center"
+        android:text="灰色边框 无上边框 底部圆角 白色背景"
+        android:textColor="@color/colorText"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/layer_bottom1"
+        android:gravity="center"
+        android:text="灰色边框 有上边框 底部圆角 白色背景"
+        android:textColor="@color/colorText"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/layer_bottom2"
+        android:gravity="center"
+        android:text="灰色边框 无上边框 底部圆角 白色背景"
+        android:textColor="@color/colorText"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/layer_top3"
+        android:gravity="center"
+        android:text="左上-右上 圆角"
+        android:textColor="@color/colorText"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/layer_bottom3"
+        android:gravity="center"
+        android:text="左下-右下 圆角"
+        android:textColor="@color/colorText"/>
+
+
+</LinearLayout>

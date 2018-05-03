@@ -9,14 +9,16 @@
     <TextView
         style="@style/title_tip_style"
         android:layout_marginTop="0dp"
-        android:text="渐变（以矩形为例）：" />
+        android:text="渐变（以矩形为例）："
+        android:visibility="gone"/>
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="80dp"
         android:background="@drawable/rect_gradient_linear_vertical"
         android:gravity="center"
-        android:text="垂直线性渐变" />
+        android:text="垂直线性渐变"
+        android:textColor="@color/colorText"/>
 
     <TextView
         android:layout_width="match_parent"
@@ -24,7 +26,8 @@
         android:layout_marginTop="10dp"
         android:background="@drawable/rect_gradient_linear_horizon"
         android:gravity="center"
-        android:text="水平线性渐变" />
+        android:text="水平线性渐变"
+        android:textColor="@color/colorText"/>
 
     <TextView
         android:layout_width="match_parent"
@@ -32,7 +35,8 @@
         android:layout_marginTop="10dp"
         android:background="@drawable/rect_gradient_linear_diagonal"
         android:gravity="center"
-        android:text="对角线线性渐变" />
+        android:text="对角线线性渐变"
+        android:textColor="@color/colorText"/>
 
     <TextView
         android:layout_width="match_parent"
@@ -40,7 +44,8 @@
         android:layout_marginTop="10dp"
         android:background="@drawable/rect_gradient_radial"
         android:gravity="center"
-        android:text="径向渐变"/>
+        android:text="径向渐变"
+        android:textColor="@color/colorText"/>
 
     <TextView
         android:layout_width="match_parent"
@@ -48,6 +53,7 @@
         android:layout_marginTop="10dp"
         android:background="@drawable/rect_gradient_sweep"
         android:gravity="center"
-        android:text="扫描渐变"/>
+        android:text="扫描渐变"
+        android:textColor="@color/colorText"/>
 
 </LinearLayout>

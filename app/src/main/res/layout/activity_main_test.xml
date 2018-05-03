@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorWindows">
+
+    <TextView
+        android:id="@+id/tv_line"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/selector_item_bg"
+        android:gravity="left|center_vertical"
+        android:paddingLeft="15dp"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginTop="0dp"
+        android:text="线（实线+虚线）"/>
+
+    <TextView
+        android:id="@+id/tv_rect"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/selector_item_bg"
+        android:gravity="left|center_vertical"
+        android:paddingLeft="15dp"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginTop="5dp"
+        android:text="矩形（边框+填充）"/>
+
+    <TextView
+        android:id="@+id/tv_round"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/selector_item_bg"
+        android:gravity="left|center_vertical"
+        android:paddingLeft="15dp"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginTop="5dp"
+        android:text="圆角矩形"/>
+
+    <TextView
+        android:id="@+id/tv_layer"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/selector_item_bg"
+        android:gravity="left|center_vertical"
+        android:paddingLeft="15dp"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginTop="5dp"
+        android:text="矩形（使用layer-list实现）"/>
+
+    <TextView
+        android:id="@+id/tv_gradient"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/selector_item_bg"
+        android:gravity="left|center_vertical"
+        android:paddingLeft="15dp"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginTop="5dp"
+        android:text="渐变（以矩形为例）"/>
+
+    <TextView
+        android:id="@+id/tv_circle"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/selector_item_bg"
+        android:gravity="left|center_vertical"
+        android:paddingLeft="15dp"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginTop="5dp"
+        android:text="圆（边框+填充+渐变）"/>
+
+    <TextView
+        android:id="@+id/tv_oval"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/selector_item_bg"
+        android:gravity="left|center_vertical"
+        android:paddingLeft="15dp"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginTop="5dp"
+        android:text="椭圆（边框+填充+渐变）"/>
+
+    <TextView
+        android:id="@+id/tv_ring"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/selector_item_bg"
+        android:gravity="left|center_vertical"
+        android:paddingLeft="15dp"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginTop="5dp"
+        android:text="圆环（边框+填充+渐变）"/>
+
+</LinearLayout>

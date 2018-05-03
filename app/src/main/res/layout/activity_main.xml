@@ -1,9 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout
+<LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:id="@+id/activity_main"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="@color/colorWindows"
+    android:orientation="vertical"
+    android:fitsSystemWindows="true"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:layout_gravity="center"
+        android:text="@string/app_name"
+        android:textColor="@color/colorTitle"
+        android:textSize="20sp"
+        android:background="@color/colorBar"
+        android:gravity="center"/>
 
     <ScrollView
         android:layout_width="match_parent"
@@ -11,70 +26,112 @@
         android:background="@color/colorWindows"
         android:scrollbarSize="6sp"
         android:scrollbarStyle="outsideOverlay"
-        android:scrollbars="vertical">
+        android:scrollbarThumbVertical="@drawable/scrollbar_vertical_thumb"
+        android:scrollbars="vertical" >
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical">
+            android:orientation="vertical" >
 
-            <!-- 线 -->
-            <include
-                android:id="@+id/layout_line"
+            <TextView
+                android:id="@+id/tv_line"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                layout="@layout/layout_line" />
+                android:layout_height="50dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/selector_item_bg"
+                android:gravity="left|center_vertical"
+                android:paddingLeft="15dp"
+                android:textSize="18sp"
+                android:textColor="@color/colorText"
+                android:text="线"/>
 
-            <!-- 矩形 -->
-            <include
-                android:id="@+id/layout_rect"
+            <TextView
+                android:id="@+id/tv_rect"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                layout="@layout/layout_rect"
-                android:layout_marginTop="15dp"/>
+                android:layout_height="50dp"
+                android:background="@drawable/selector_item_bg"
+                android:gravity="left|center_vertical"
+                android:paddingLeft="15dp"
+                android:textSize="18sp"
+                android:textColor="@color/colorText"
+                android:layout_marginTop="5dp"
+                android:text="矩形（Shape）"/>
 
-            <!-- 圆角矩形 -->
-            <include
-                android:id="@+id/layout_round"
+            <TextView
+                android:id="@+id/tv_layer"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                layout="@layout/layout_round"
-                android:layout_marginTop="15dp"/>
+                android:layout_height="50dp"
+                android:background="@drawable/selector_item_bg"
+                android:gravity="left|center_vertical"
+                android:paddingLeft="15dp"
+                android:textSize="18sp"
+                android:textColor="@color/colorText"
+                android:layout_marginTop="5dp"
+                android:text="矩形（layer-list）"/>
 
-            <!-- 渐变 -->
-            <include
-                android:id="@+id/layout_gradient"
+            <TextView
+                android:id="@+id/tv_round"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                layout="@layout/layout_gradient"
-                android:layout_marginTop="15dp"/>
+                android:layout_height="50dp"
+                android:background="@drawable/selector_item_bg"
+                android:gravity="left|center_vertical"
+                android:paddingLeft="15dp"
+                android:textSize="18sp"
+                android:textColor="@color/colorText"
+                android:layout_marginTop="5dp"
+                android:text="圆角矩形"/>
 
-            <!-- 圆 -->
-            <include
-                android:id="@+id/layout_circle"
+            <TextView
+                android:id="@+id/tv_gradient"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                layout="@layout/layout_circle"
-                android:layout_marginTop="15dp"/>
+                android:layout_height="50dp"
+                android:background="@drawable/selector_item_bg"
+                android:gravity="left|center_vertical"
+                android:paddingLeft="15dp"
+                android:textSize="18sp"
+                android:textColor="@color/colorText"
+                android:layout_marginTop="5dp"
+                android:text="渐变"/>
 
-            <!-- 椭圆 -->
-            <include
-                android:id="@+id/layout_oval"
+            <TextView
+                android:id="@+id/tv_circle"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                layout="@layout/layout_oval"
-                android:layout_marginTop="15dp"/>
+                android:layout_height="50dp"
+                android:background="@drawable/selector_item_bg"
+                android:gravity="left|center_vertical"
+                android:paddingLeft="15dp"
+                android:textSize="18sp"
+                android:textColor="@color/colorText"
+                android:layout_marginTop="5dp"
+                android:text="圆"/>
 
-            <!-- 圆环 -->
-            <include
-                android:id="@+id/layout_ring"
+            <TextView
+                android:id="@+id/tv_oval"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                layout="@layout/layout_ring"
-                android:layout_marginTop="15dp"/>
+                android:layout_height="50dp"
+                android:background="@drawable/selector_item_bg"
+                android:gravity="left|center_vertical"
+                android:paddingLeft="15dp"
+                android:textSize="18sp"
+                android:textColor="@color/colorText"
+                android:layout_marginTop="5dp"
+                android:text="椭圆"/>
+
+            <TextView
+                android:id="@+id/tv_ring"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/selector_item_bg"
+                android:gravity="left|center_vertical"
+                android:paddingLeft="15dp"
+                android:textSize="18sp"
+                android:textColor="@color/colorText"
+                android:layout_marginTop="5dp"
+                android:text="圆环"/>
 
         </LinearLayout>
 
     </ScrollView>
 
-</RelativeLayout>
+</LinearLayout>

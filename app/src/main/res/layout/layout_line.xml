@@ -9,14 +9,16 @@
     <TextView
         style="@style/title_tip_style"
         android:layout_marginTop="0dp"
-        android:text="线（实线+虚线）:"/>
+        android:text="线（实线+虚线）:"
+        android:visibility="gone"/>
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@drawable/line_solid"
         android:gravity="center"
-        android:text="实线"/>
+        android:text="实线"
+        android:textColor="@color/colorText"/>
 
     <TextView
         android:layout_width="match_parent"
@@ -25,6 +27,7 @@
         android:background="@drawable/line_dashed"
         android:gravity="center"
         android:layerType="software"
-        android:text="虚线"/>
+        android:text="虚线"
+        android:textColor="@color/colorText"/>
 
 </LinearLayout>
