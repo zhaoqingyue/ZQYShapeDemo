@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="#ECECEC"
+              android:orientation="vertical"
+              android:padding="15dp">
+
+    <TextView
+        style="@style/title_tip_style"
+        android:layout_marginTop="0dp"
+        android:text="渐变（以矩形为例）：" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@drawable/rect_gradient_linear_vertical"
+        android:gravity="center"
+        android:text="垂直线性渐变" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/rect_gradient_linear_horizon"
+        android:gravity="center"
+        android:text="水平线性渐变" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/rect_gradient_linear_diagonal"
+        android:gravity="center"
+        android:text="对角线线性渐变" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/rect_gradient_radial"
+        android:gravity="center"
+        android:text="径向渐变"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/rect_gradient_sweep"
+        android:gravity="center"
+        android:text="扫描渐变"/>
+
+</LinearLayout>

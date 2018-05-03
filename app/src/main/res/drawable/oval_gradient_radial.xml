@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 椭圆内部填充-径向渐变 -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="oval"
+    android:useLevel="true" >
+
+    <size
+        android:width="80dp"
+        android:height="60dp" />
+
+    <gradient
+        android:centerX="0.5"
+        android:centerY="0.5"
+        android:centerColor="#80ff0000"
+        android:endColor="#00ff0000"
+        android:startColor="#ffff0000"
+        android:gradientRadius="40dp"
+        android:type="radial" />
+
+</shape>

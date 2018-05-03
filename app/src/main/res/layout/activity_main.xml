@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorWindows"
+        android:scrollbarSize="6sp"
+        android:scrollbarStyle="outsideOverlay"
+        android:scrollbars="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!-- 线 -->
+            <include
+                android:id="@+id/layout_line"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                layout="@layout/layout_line" />
+
+            <!-- 矩形 -->
+            <include
+                android:id="@+id/layout_rect"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                layout="@layout/layout_rect"
+                android:layout_marginTop="15dp"/>
+
+            <!-- 圆角矩形 -->
+            <include
+                android:id="@+id/layout_round"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                layout="@layout/layout_round"
+                android:layout_marginTop="15dp"/>
+
+            <!-- 渐变 -->
+            <include
+                android:id="@+id/layout_gradient"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                layout="@layout/layout_gradient"
+                android:layout_marginTop="15dp"/>
+
+            <!-- 圆 -->
+            <include
+                android:id="@+id/layout_circle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                layout="@layout/layout_circle"
+                android:layout_marginTop="15dp"/>
+
+            <!-- 椭圆 -->
+            <include
+                android:id="@+id/layout_oval"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                layout="@layout/layout_oval"
+                android:layout_marginTop="15dp"/>
+
+            <!-- 圆环 -->
+            <include
+                android:id="@+id/layout_ring"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                layout="@layout/layout_ring"
+                android:layout_marginTop="15dp"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

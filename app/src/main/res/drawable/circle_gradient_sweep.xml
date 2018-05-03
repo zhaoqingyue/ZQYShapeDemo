@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 圆形内部填充-扫描渐变 -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="oval"
+    android:useLevel="true">
+
+    <size
+        android:width="@dimen/shape_size"
+        android:height="@dimen/shape_size" />
+
+    <!-- sweep类型angle,gradientRadius无效，centerX, centerY是百分百（0-1） -->
+    <gradient
+        android:centerX="0.5"
+        android:centerY="0.6"
+        android:startColor="#ffff0000"
+        android:centerColor="#80ff0000"
+        android:endColor="#20ff0000"
+        android:gradientRadius="20dp"
+        android:type="sweep" />
+
+</shape>

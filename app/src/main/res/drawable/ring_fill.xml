@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?><!-- 圆环 -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:innerRadiusRatio="4"
+    android:shape="ring"
+    android:thicknessRatio="4"
+    android:useLevel="false">
+    <!--android:useLevel="false"必须是false-->
+    <size
+        android:width="80dp"
+        android:height="80dp" />
+
+    <solid android:color="#80ff0000" />
+
+</shape>

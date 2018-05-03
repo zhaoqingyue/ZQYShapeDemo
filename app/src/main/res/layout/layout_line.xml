@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="#ECECEC"
+              android:orientation="vertical"
+              android:padding="15dp">
+
+    <TextView
+        style="@style/title_tip_style"
+        android:layout_marginTop="0dp"
+        android:text="线（实线+虚线）:"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/line_solid"
+        android:gravity="center"
+        android:text="实线"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/line_dashed"
+        android:gravity="center"
+        android:layerType="software"
+        android:text="虚线"/>
+
+</LinearLayout>
